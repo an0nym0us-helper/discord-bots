@@ -6,7 +6,6 @@
   "scripts": {
     "bot": "node .",
     "deploy": "node deploy-commands.js"
-
   },
   "keywords": [],
   "author": "Hachi Metsu",
