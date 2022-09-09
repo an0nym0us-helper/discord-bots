@@ -1,8 +1,7 @@
 console.log("In bot.js .....(/)");
 const path = require("node:path");
 require("dotenv").config();
-const config = require("./config.json");
-// const { TOKEN, audioID } = process.env
+// const config = require("./config.json");
 // ------------------------
 // const { Client, GuildMember, Intents } = require("discord.js");
 const { Client, Collection, GatewayIntentBits } = require("discord.js");
@@ -44,4 +43,4 @@ client.on("error", console.error);
 client.on("warn", console.warn);
 
 // ------------------------
-client.login(config.TOKEN);
+client.login(process.env.TOKEN);
