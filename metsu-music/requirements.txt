@@ -1,0 +1,9 @@
+discord.js
+@discordjs/opus
+@discordjs/rest
+discord-player
+dotenv
+ffmpeg
+ffmpeg-static
+fluent-ffmpeg
+ytdl-core
