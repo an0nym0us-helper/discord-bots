@@ -1,0 +1,33 @@
+{
+  "name": "discord-bots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "bot": "nodemon .",
+    "deploy": "node deploy-commands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hachimetsu/discord-bots.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hachimetsu/discord-bots/issues"
+  },
+  "homepage": "https://github.com/hachimetsu/discord-bots#readme",
+  "devDependencies": {
+    "@discordjs/rest": "^1.6.0",
+    "discord.js": "^14.8.0",
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "google-libphonenumber": "^3.2.32",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.2",
+    "protobufjs": "^7.2.2",
+    "twilio": "^4.8.0"
+  }
+}
