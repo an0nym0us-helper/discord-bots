@@ -13,9 +13,9 @@ module.exports = {
             .setMinValue(1000000000)
             .setMaxValue(9999999999)),
     async execute(command, client) {
-        const accountSid = 'AC8c72b8f5389f1c6be657c29faae52561'; // Your Account SID from www.twilio.com/console
-        const authToken = 'a2bb52231059808f35da381cbb7c32bb'; // Your Auth Token from www.twilio.com/console
-        const verifySid = "VA7d1392c93d3d11d6a0aa5359762c2ca4";
+        const accountSid = 'gfcjcy6t5y6cykif67tdc5s43w3arxucvbjh'; // Your Account SID from www.twilio.com/console
+        const authToken = 'awrtc76yuiuf8f6d44x75exs4a32ub9ih9b8'; // Your Auth Token from www.twilio.com/console
+        const verifySid = "xtrxyucikugytfr65tvuibunoiuhyyvubh";
         const newUser = twilio(accountSid, authToken);
         const phoneNumber = `+91${command.options.getInteger("number")}`;
         try {
